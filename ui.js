@@ -18,7 +18,7 @@ class UI {
   paint(weather) {
     this.location.textContent = `${weather.name}, ${weather.sys.country}`;
     this.desc.textContent = weather.weather[0].main;
-    this.string.textContent = weather.main.temp;
+    this.string.textContent = `${weather.main.temp} °F`;
 
     const iconPng = weather.weather[0].icon;
     this.icon.setAttribute('src', `http://openweathermap.org/img/wn/${iconPng}@2x.png`);
