@@ -21,7 +21,7 @@ class Storage {
 
     return {
       city: this.city,
-      state: this.state
+      country: this.country
     }
   }
 
