@@ -1,10 +1,10 @@
 
 // Get API key from config file
-const myKey = Config.key;
+// const myKey = Config.key;
 
 class Weather {
   constructor(city, country) {
-    this.apikey = myKey;
+    this.apikey = 'f3ff1e1926294a3f6204673c3f82e683';
     this.city = city;
     this.country = country;
   }
